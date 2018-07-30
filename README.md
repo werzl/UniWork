@@ -59,3 +59,16 @@ Part3 - A re-work of the famous ELIZA program, uses regular expressions and patt
 
 
 Assignment 2 - Language model that calculates probabilities of words appearing using feature likelihood estimates and is trained using the Naive Bayes classifier.
+
+
+
+
+<br/>
+
+PHP
+
+Some samples of PHP files from my final year project.
+
+overview.php - Displays all of the modules the user is enrolled in, a bar chart showing all the modules against each other in the middle of the page and a required percentage to achieve each grade at the bottom of the page. All data is selected from the MySQL database hosted on an AWS endpoint. 
+
+modules.php - A button is displayed for each module the user is enrolled in which opens a modal box containing a pie chart, range sliders and overall grade.
