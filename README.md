@@ -42,3 +42,20 @@ ex2 - Iterates through the text of Hamlet and depending on user choice, finds al
 Information Retrieval
 
 Ass1 -  Takes a URL as a single command-line argument. Returns a list of indexed strings from the web page’s plaintext.
+
+
+
+
+<br/>
+
+Natural Language Engineering
+
+Assignment 1
+Part1 - Tokenize and POS tag a string using the Natural Language Toolkit (NLTK) library in Python.
+
+Part2 - Connects to a URL, downloads the web-page and uses Regular Expressions to identify occurrences in the text where an amount of money is mentioned, displays each instance.
+
+Part3 - A re-work of the famous ELIZA program, uses regular expressions and pattern matching to simulate a conversation between the user and the program.
+
+
+Assignment 2 - Language model that calculates probabilities of words appearing using feature likelihood estimates and is trained using the Naive Bayes classifier.
