@@ -1,0 +1,70 @@
+PART1: Tokenization, Part-of-Speech Tagging (40%)
+Registration Number: 1501801
+
+All tokens in example sentence:
+ ['A', 'Message', 'From', 'The', 'Headmaster', 'Kow', 'tow', 'That', 's', 'the', 'Chinese', 'for', 'hello', 'as', 'I', 've', 'learnt', 'this', 'week', 'because', 'those', 'were', 'the', 'first', 'words', 'said', 'to', 'me', 'by', 'the', 'Head', 'of', 'our', 'Chinese', 'sister', 'academy', 'the', 'Tiananmen', 'Not', 'At', 'All', 'Free', 'School', 'As', 'you', 've', 'probably', 'gathered', 'we', 'were', 'rolling', 'out', 'the', 'school', 'red', 'carpet', 'this', 'week', 'for', 'Mr', 'Xi', 'Sho-pping', 'who', 'was', 'on', 'a', 'visit', 'to', 'try', 'and', 'buy', 'as', 'much', 'of', 'the', 'school', 'as', 'we', 'could', 'sell', 'him', 'Mr', 'Sho-pping', 'then', 'visited', 'the', 'old', 'boiler', 'room', 'and', 'we', 'signed', 'an', 'agreement', 'for', 'him', 'to', 'build', 'not', 'only', 'a', 'new', 'nuclear', 'boiler', 'to', 'replace', 'it', 'but', 'to', 'build', 'another', 'two', 'boilers', 'just', 'in', 'case', 'the', 'other', 'one', 'blows', 'up', 'which', 'it', 'won', 't', 'of', 'course', 'Even', 'better', 'all', 'the', 'boilers', 'will', 'be', 'run', 'entirely', 'by', 'himself', 'and', 'members', 'of', 'the', 'Beijing', 'Nuclear', 'Intelligence', 'Services', 'Department', 'who', 'are', 'delighted', 'to', 'be', 'the', 'given', 'the', 'chance', 'of', 'experimenting', 'with', 'untried', 'nuclear', 'technology', 'in', 'someone', 'else', 's', 'school', 'How', 'exciting', 'is', 'that', 'I', 'can', 't', 'have', 'been', 'the', 'only', 'one', 'to', 'feel', 'a', 'warm', 'glow', 'at', 'the', 'thought', 'of', 'so', 'much', 'radioactivity', 'at', 'the', 'very', 'heart', 'of', 'the', 'school', 'Who', 'knows', 'by', 'this', 'time', 'next', 'year', 'I', 'could', 'be', 'the', 'Two-head-master', 'Finkelstein', 'D.', 'you', 're', 'on', 'fire', 'as', 'is', 'the', 'boiler', 'room', 'D.C']
+
+
+
+First 10 POS Tagged words using Unigram:
+ [('A', 'AT'), ('Message', None), ('From', 'IN'), ('The', 'AT'), ('Headmaster', None), ('Kow', None), ('tow', None), ('That', 'DT'), ('s', None), ('the', 'AT')]
+
+
+
+First 10 POS Tagged words using HMM:
+ [('A', 'NN'), ('Message', 'AT'), ('From', 'AT'), ('The', 'AT'), ('Headmaster', 'AT'), ('Kow', 'AT'), ('tow', 'AT'), ('That', 'AT'), ('s', 'AT'), ('the', 'AT')]
+
+
+
+First 10 POS Tagged words using nltk.POS_TAG:
+ [('A', 'DT'), ('Message', 'NN'), ('From', 'IN'), ('The', 'DT'), ('Headmaster', 'NNP'), ('Kow', 'NNP'), ('tow', 'NN'), ('That', 'WDT'), ('s', 'VBZ'), ('the', 'DT')]
+
+
+ 
+ 
+ 
+ 
+ 
+
+PART2: Regular Expressions, FSAs and FSTs (30%)
+Registration Number: 1501801
+
+Found a match!
+Currency: Dollar
+Amount: 131b
+
+Found a match!
+Currency: Pound
+Amount: 100b
+
+Found a match!
+Currency: Dollar
+Amount: 100b
+
+Found a match!
+Currency: Dollar
+Amount: 17.4b
+
+
+
+
+
+
+
+
+
+PART3: Write your own version of ELIZA (30%)
+Registration Number: 1501801
+
+Ask ELIZA about flights from Paris to Berlin(Enter 'e' to exit)
+ELIZA: Hello, I am Eliza.
+User: I want to fly to Paris next month.
+ELIZA: There are no available flights next month to Paris. Please accept our apologies
+User: How about to Berlin on December 31st?
+ELIZA: There are no available flights on December 31st to Berlin. Please accept our apologies
+User: What would be the first available flight to Paris next year?
+ELIZA: There are no available flights next year to Paris. Please accept our apologies
+User: e
+ELIZA: Thank you for using ELIZA, Goodbye...
+
+C:\Users\Adam\Desktop\Uni Work\Year 3\CE314\Assignment1\Final>
