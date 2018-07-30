@@ -33,3 +33,12 @@ C++
 ex1 - Scans through 2 specified text files to find students and attach marks to them. Each student is a separate Person object and then they are all added to a vector and displayed once the txt files have been processed.
 
 ex2 - Iterates through the text of Hamlet and depending on user choice, finds all occurences of Upper case letters, digits, and punctuation.
+
+
+
+
+<br/>
+
+Information Retrieval
+
+Ass1 -  Takes a URL as a single command-line argument. Returns a list of indexed strings from the web page’s plaintext.
