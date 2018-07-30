@@ -3,17 +3,14 @@ Assignments and coursework from my time at the University of Essex.
 
 
 
-
+<br/>
 
 Software Engineering
 
 This assignment looks at the project management side of development including gathering requirements through use-cases, mapping use-cases to users and drawing up class diagrams and sequence diagrams.
 
 
-
-
-
-
+<br/>
 
 
 Data Structures and Algorithms
